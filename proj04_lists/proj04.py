@@ -65,13 +65,15 @@ print "________"
 
 #Ask the user for a string, and print out whether this string is a palindrome or not.
 
-print "Hello!"
-list_one = str
-list_two = str
-str = raw_input("Choose a word and I will tell you whether it is a palindrome or not:")
-list_two.reverse
-list_one = list_two
-print ""
+cows = raw_input("please enter a word")
+L = []
+L2 = []
+for letter in cows:
+    L.append(letter)
+    L2.append(letter)
+print L
+L2.reverse()
+print L2
 
 
 
