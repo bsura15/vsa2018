@@ -1,35 +1,51 @@
-# VSA-SAVY-projects
-VSA and SAVY projects
-
-These are projects for VSA and SAVY students for summer 2017.
-
-Several of the projects are adapated from Vanderbilt's CS 201 Course and from OpenCourseWear's CS 6.00:
-John Guttag. 6.00SC Introduction to Computer Science and Programming. Spring 2011. 
-Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu. License: Creative Commons BY-NC-SA.
+hi = raw_input("Hi")
 
 
-hi = raw_input ("hi")
+name = raw_input("whats your name?")
+print "That's a very pretty name"
 
-
-name = raw_input ("whats your name?")
-
-
-how = raw_input ("How are you")
-if how == "good" or "great" or "awesome" or "wonderful" or "not bad" :
+how = raw_input("How are you")
+if how == "good" or "great" or "awesome" or "wonderful":
     print "Great!"
 else:
-    print "Oh sorry hope your day gets better"
+  print "Oh,sorry hope your day gets better."
 
 
-chicken = raw_input ("do you like chickens")
+age = raw_input("How old are you")
+print "Cool!"
+
+
+
+
+
+color = raw_input("Whats your favorite color?")
+if color == "purple":
+    print "Awesome, that's my favorite color too."
+else:
+    print "That's a pretty color, My favorite color is purple."
+
+
+
+food = raw_input("Whats your favorite food?")
+print "That's a really good choice!"
+
+
+
+chicken = raw_input("do you like chickens")
 if chicken == "no":
     print "you should be ashamed"
 else:
-    print "awesome your my new friend"
+    print "awesome your my new friend!"
 
 
-cows = raw_input ("do you like cows")
+cows = raw_input("do you like cows")
 if cows == "no":
     print "you should be ashamed"
 else:
-    print "now your my BEST FRIEND"
+    print "now your my BEST FRIEND!"
+
+
+
+
+
+
